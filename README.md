@@ -1,1 +1,1 @@
-# Simulation-for-Population-Genetics-Wright-Fisher-Model
+# Simulate Population Genetics using the Wright-Fisher Model
