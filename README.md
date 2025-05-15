@@ -10,13 +10,13 @@ This command-line tool simulates the change in allele frequencies over multiple 
  
 # Input
 This simulation accepts the following arguments:
-* --population_size: (int) Number of individuals in each generation
-* --generations: (int) Number of generations to simulate
-* --initial_allele_frequency: (float) Starting frequency of the allele A (0.0–1.0)
-* --num_reps: (int) Number of replicate simulations
-* --enable_mutation: (flag) Enable mutation (optional)
-* --foward_mutation_rate: (float) Forward mutation rate, A -> a (only valid if mutation is enabled)
-* --backward_mutation_rate: (float) Backward mutation rate, a -> A (only valid if mutation is enabled)
+* ```--population_size```: (int) Number of individuals in each generation
+* ```--generations```: (int) Number of generations to simulate
+* ```--initial_allele_frequency```: (float) Starting frequency of the allele A (0.0–1.0)
+* ```--num_reps```: (int) Number of replicate simulations
+* ```--enable_mutation```: (flag) Enable mutation (optional)
+* ```--foward_mutation_rate```: (float) Forward mutation rate, A -> a (only valid if mutation is enabled)
+* ```--backward_mutation_rate```: (float) Backward mutation rate, a -> A (only valid if mutation is enabled)
 
 # Build Instructions
 1. Clone the repository
