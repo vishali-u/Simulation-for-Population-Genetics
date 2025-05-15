@@ -30,7 +30,7 @@ make
 ```
 
 # Running Instructions
-You can run the simulation with command-line arguments:
+1. Run the simulation with command-line arguments:
 ```bash
 ./main --population_size 1000 \
        --generations 50 \
@@ -39,6 +39,12 @@ You can run the simulation with command-line arguments:
        --enable_mutation \
        --forward_mutation_rate 0.001 \
        --backwork_mutation_rate 0.002
+```
+The results will be stored in the project directory in a file called ```simulation_results.tsv```.
+
+2. Plot the results:
+```bash
+python3 scripts/plot.py
 ```
 
 # References
