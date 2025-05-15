@@ -1,5 +1,5 @@
 # Simulation for Population Genetics (Wright-Fisher Model)
-This command-line tool simulates the change in allele frequencies over multiple generations a Wright Fisher model. It also extends the Wright Fisher model by considering mutation according to Tataru et al., 2017. They determined that $z_{r+1} | z_{r} \sim Binom(2N, (1 - u - v)p + v)$, where $z_{r}$ is the allele frequency of A in generation $r$, $z_{r+1}$ is the allele frequency of A in generation $r+1$, $N$ is the population size, $u$ is the forward mutation rate (A -> a), v is the backward mutation rate (a -> A), and $p$ is the allele frequency of A (Tataru et al., 17). 
+Using a Wright-Fisher model, this command-line tool simulates the change in allele frequencies over multiple generations. It also extends the Wright-Fisher model by considering mutation according to Tataru et al., 2017. They determined that $z_{r+1} | z_{r} \sim Binom(2N, (1 - u - v)p + v)$, where $z_{r}$ is the allele frequency of A in generation $r$, $z_{r+1}$ is the allele frequency of A in generation $r+1$, $N$ is the population size, $u$ is the forward mutation rate (A -> a), v is the backward mutation rate (a -> A), and $p$ is the allele frequency of A (Tataru et al., 17). 
 
 # Dependencies
 * GCC
