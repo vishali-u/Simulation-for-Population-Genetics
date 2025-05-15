@@ -1,0 +1,6 @@
+# Object files
+obj/
+*.o
+
+# Simulation output
+simulation_results.tsv

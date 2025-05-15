@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "gsl_randist.h": "c",
+        "simulation.h": "c"
+    }
+}
