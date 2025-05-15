@@ -19,12 +19,13 @@ This simulation accepts the following arguments:
 * ```--backward_mutation_rate```: (float) Backward mutation rate, a -> A (only valid if mutation is enabled)
 
 # Build Instructions
-1. Clone the repository
+1. Make sure all dependencies are installed
+2. Clone the repository
 ```bash
 git clone https://github.com/vishali-u/Simulation-for-Population-Genetics
 cd Simulation-for-Population-Genetics
 ```
-2. Compile the program
+3. Compile the program
 ```bash
 make
 ```
