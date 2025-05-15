@@ -4,3 +4,6 @@ obj/
 
 # Simulation output
 simulation_results.tsv
+
+# vscode
+*.vscode
