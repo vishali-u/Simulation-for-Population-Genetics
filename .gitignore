@@ -2,6 +2,9 @@
 obj/
 *.o
 
+# Executable
+main
+
 # Simulation output
 simulation_results.tsv
 
