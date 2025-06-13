@@ -39,7 +39,7 @@ make
        --num_reps 5 \
        --enable_mutation \
        --forward_mutation_rate 0.001 \
-       --backwork_mutation_rate 0.002
+       --backword_mutation_rate 0.002
 ```
 2. The results will be stored in the project directory in a file called ```simulation_results.tsv```.
 
